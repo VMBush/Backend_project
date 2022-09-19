@@ -1,3 +1,0 @@
-print("hi")
-input()
-sayou
