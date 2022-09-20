@@ -21,7 +21,7 @@ urlpatterns = [
     re_path('^$', include('qa.urls')),
     path('login/', include('qa.urls')),
     path('signup/', include('qa.urls')),
-    path('question/123', include('qa.urls')),
+    re_path('question/*', include('qa.urls')),
     path('ask/', include('qa.urls')),
     path('popular/', include('qa.urls')),
     path('new/', include('qa.urls')),
