@@ -1,5 +1,4 @@
 def app(environ, start_response):
-    print("erere")
     data = environ["QUERY_STRING"]
     data = data.replace("&", "\n")
     print(data)
